@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>More About Me</title>
+  <link rel="stylesheet" href="CSS/more.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body background="Images/bg1.jpg">
+
+  <div class="container">
+    <h1>More About Me</h1>
+    <div class="tabs">
+      <button class="tab-btn active" onclick="showContent('education', this)">Education</button>
+      <button class="tab-btn" onclick="showContent('hobbies', this)">Hobbies</button>
+      <button class="tab-btn" onclick="showContent('goals', this)">Goals</button>
+      <button class="tab-btn" onclick="showContent('skills', this)">Skills</button>
+      <button class="tab-btn" onclick="showContent('projects', this)">Projects</button>
+      <button class="tab-btn" onclick="showContent('contact', this)">Contacts</button>
+
+    </div>
+
+    <div class="content-box">
+      <div class="content active" id="education">
+        <h2>Education</h2>
+        <p>I’m pursuing a B.Tech in CSE with a specialization in AI & ML. My academic foundation includes programming, machine learning, and problem-solving, and I'm actively working on projects involving fraud detection and intelligent systems to strengthen my technical and analytical skills for real-world applications.</p>
+      </div>
+
+      <div class="content" id="hobbies">
+        <h2>Hobbies</h2>
+        <p>I love exploring photography, capturing nature and everyday life through creative lenses. I enjoy cooking, listening to chill music, reading AI blogs, and experimenting with web development tools. These hobbies not only help me relax but often inspire creative problem-solving in my tech journey.</p>
+      </div>
+
+      <div class="content" id="goals">
+        <h2>Goals</h2>
+        <p>My goal is to become a professional AI developer solving impactful problems in society. I aspire to work on ethical AI systems, build real-world applications in healthcare and security, and contribute to open-source projects while continuously improving my deep learning and innovation skills.</p>
+      </div>
+
+      <div class="content" id="skills">
+        <h2>Skills</h2>
+        <p>I have hands-on skills in HTML , CSS , JavaScript , MySql , Python , Java and C . I'm in the phase of learning many more different technologies, and I enjoy using Git, and VS Code for efficient development and collaboration in coding environments.</p>
+      </div>
+
+      <div class="content" id="projects">
+        <h2>Projects</h2>
+        <p>I’ve built Car game , Flappy Bird Game and music player using Java Swing. I’ve also developed personal portfolio websites using HTML , CSS and JavaScript and these projects help me apply my skills, learn new tools, and solve challenges creatively.</p>
+      </div>
+
+      <div class="content" id="contact">
+        <h2>Contacts</h2>
+        <p>You can reach me via email at wishmastervishal.com. I’m also active on GitHub and LinkedIn. I’m always open to collaborating on web development , Java and AI/ML projects, internships, or tech events that allow me to learn and contribute to meaningful innovations in the field.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="JavaScript/more.js"></script>
+</body>
+</html>
